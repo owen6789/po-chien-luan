@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Academic personal website for robotics, computer vision, and world model research.">
+    <title>Po-Chien Luan | Academic Website</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="topbar" aria-label="Primary">
+      <a class="wordmark" href="#top" data-field="profile.name">Po-Chien Luan</a>
+      <nav class="nav-links" aria-label="Section navigation">
+        <a href="#bio">Bio</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+      </nav>
+    </header>
+
+    <div class="page-shell" id="top">
+      <aside class="profile-panel" aria-label="Profile summary">
+        <img class="profile-photo" src="assets/profile.jpg" alt="Portrait of Po-Chien Luan" data-field="profile.photo">
+        <h1 data-field="profile.name">Po-Chien Luan</h1>
+        <p class="role" data-field="profile.role">Ph.D. Candidate in Computer Science</p>
+        <p class="affiliation" data-field="profile.affiliation">Department of Computer Science, Your University</p>
+
+        <dl class="profile-meta" id="profile-meta"></dl>
+        <div class="profile-links" id="profile-links"></div>
+      </aside>
+
+      <main id="main" class="content">
+        <section class="intro-section section-band" id="bio" aria-labelledby="bio-title">
+          <div class="section-kicker" data-field="profile.kicker">Academic Record</div>
+          <h2 id="bio-title" data-field="profile.headline">Researching concise topic areas with clear real-world impact.</h2>
+          <div class="bio-copy" id="bio-copy"></div>
+          <div class="opportunity-callout" aria-label="Availability">
+            <div>
+              <p class="opportunity-label" data-field="profile.opportunityTitle">Open to Opportunities</p>
+              <p data-field="profile.opportunityText">I am actively looking for full-time positions or internships in computer vision.</p>
+            </div>
+            <div class="opportunity-actions">
+              <a class="opportunity-button" id="opportunity-email" href="mailto:po-chien.luan@epfl.ch">Email</a>
+              <a class="opportunity-button opportunity-button-secondary" id="opportunity-linkedin" href="https://www.linkedin.com/in/po-chien-luan-9a8b7b217">LinkedIn</a>
+            </div>
+          </div>
+          <h3 class="interest-heading">Research Interests</h3>
+          <div class="interest-list" id="interest-list" aria-label="Research interests"></div>
+        </section>
+
+        <section class="section-block" id="news" aria-labelledby="news-title">
+          <div class="section-heading">
+            <div>
+              <p class="section-label">Updates</p>
+              <h2 id="news-title">News</h2>
+            </div>
+          </div>
+          <ol class="news-list" id="news-list"></ol>
+        </section>
+
+        <section class="section-block" id="publications" aria-labelledby="publications-title">
+          <div class="section-heading">
+            <div>
+              <p class="section-label">Research Output</p>
+              <h2 id="publications-title">Selected Publications</h2>
+            </div>
+          </div>
+          <div class="filter-row" id="publication-filters" aria-label="Publication filters"></div>
+          <div class="publication-list" id="publication-list"></div>
+          <div class="publication-scholar" id="publication-scholar">
+            <p>For a full list, please visit my Google Scholar.</p>
+            <a class="publication-link publication-link-scholar" id="publication-scholar-link" href="#">View Google Scholar</a>
+          </div>
+        </section>
+
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <span data-field="profile.name">Po-Chien Luan</span>
+      <span>Last updated <span id="last-updated">2026</span></span>
+    </footer>
+
+    <script src="data/site-data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-labelledby="title desc">
+  <title id="title">Publication figure placeholder</title>
+  <desc id="desc">A simple diagram placeholder for publication thumbnails.</desc>
+  <rect width="960" height="720" fill="#f2eadc"/>
+  <rect x="86" y="92" width="788" height="536" rx="20" fill="#ffffff" stroke="#d1c6b2" stroke-width="6"/>
+  <circle cx="252" cy="280" r="92" fill="#2f6f73" opacity=".92"/>
+  <rect x="416" y="214" width="286" height="34" rx="17" fill="#174d52"/>
+  <rect x="416" y="294" width="380" height="24" rx="12" fill="#ad6d3c"/>
+  <rect x="416" y="352" width="318" height="24" rx="12" fill="#bf942e"/>
+  <path d="M232 452h496" stroke="#d1c6b2" stroke-width="16" stroke-linecap="round"/>
+  <path d="M232 510h384" stroke="#d1c6b2" stroke-width="16" stroke-linecap="round"/>
+  <text x="480" y="622" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" fill="#6a5b45">Publication Figure</text>
+</svg>
