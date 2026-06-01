@@ -58,16 +58,32 @@ const formatAuthors = (authors) => {
   return escapeHtml(authors).replace(namePattern, `<strong>${escapedName}</strong>`);
 };
 
-const publicationMedia = (publication) => {
-  const mediaClass = `publication-image ${publication.imageShape ? `publication-image-${publication.imageShape}` : ""}`;
-  if (publication.video) {
+const publicationMediaItem = (item, publication) => {
+  const mediaShape = item.imageShape || publication.imageShape;
+  const mediaClass = `publication-image ${mediaShape ? `publication-image-${mediaShape}` : ""}`;
+  const title = item.label || publication.title;
+  if (item.type === "video") {
     return `
-      <video class="${mediaClass}" aria-label="Video preview for ${publication.title}" autoplay muted loop playsinline preload="metadata">
-        <source src="${publication.video}" type="video/mp4">
+      <video class="${mediaClass}" aria-label="${title}" autoplay muted loop playsinline preload="metadata">
+        <source src="${item.src}" type="video/mp4">
       </video>
     `;
   }
-  return `<img class="${mediaClass}" src="${publication.image}" alt="Thumbnail for ${publication.title}">`;
+  return `<img class="${mediaClass}" src="${item.src}" alt="${item.alt || `Thumbnail for ${publication.title}`}">`;
+};
+
+const publicationMedia = (publication) => {
+  if (publication.media?.length) {
+    return `
+      <div class="publication-media-stack">
+        ${publication.media.map((item) => publicationMediaItem(item, publication)).join("")}
+      </div>
+    `;
+  }
+  if (publication.video) {
+    return publicationMediaItem({ type: "video", src: publication.video, label: `Video preview for ${publication.title}` }, publication);
+  }
+  return publicationMediaItem({ type: "image", src: publication.image, alt: `Thumbnail for ${publication.title}` }, publication);
 };
 
 const renderProfile = () => {

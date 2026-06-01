@@ -616,6 +616,15 @@ video {
   align-self: center;
 }
 
+.publication-media-stack {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.publication-media-stack .publication-image {
+  align-self: center;
+}
+
 .publication-meta {
   display: flex;
   flex-wrap: wrap;

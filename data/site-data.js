@@ -97,6 +97,18 @@ window.siteData = {
       category: "Computer Vision",
       categories: ["Computer Vision", "Human Motion"],
       image: "assets/monotransmotion.png",
+      media: [
+        {
+          type: "image",
+          src: "assets/monotransmotion.png",
+          alt: "Pull figure for Unified Human Localization and Trajectory Prediction with Monocular Vision"
+        },
+        {
+          type: "video",
+          src: "assets/mt.mp4",
+          label: "Demo video for Unified Human Localization and Trajectory Prediction with Monocular Vision"
+        }
+      ],
       imageShape: "wide",
       summary: "A monocular vision framework that estimates human localization and future trajectories from a single camera by connecting 2D pose observations with trajectory prediction.",
       links: [
