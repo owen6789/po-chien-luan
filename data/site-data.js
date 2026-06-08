@@ -171,7 +171,8 @@ window.siteData = {
       summary: "A long-horizon human animation method that restores latent flow trajectories with persistent context memory to preserve motion, identity, and visual quality over minute-scale generation.",
       links: [
         { label: "Paper", url: "https://arxiv.org/abs/2605.15042" },
-        { label: "Project", url: "https://everanimate.github.io/homepage/" }
+        { label: "Project", url: "https://everanimate.github.io/homepage/" },
+        { label: "Code", url: "https://github.com/vita-epfl/EverAnimate" }
       ]
     },
     {
