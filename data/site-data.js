@@ -156,6 +156,7 @@ window.siteData = {
       imageShape: "wide",
       summary: "DeGO models dynamic 3D scenes with deformable Gaussian occupancy and decouples rigid from nonrigid motion. Factorized foundation-model distillation improves temporal consistency and weakly supervised occupancy prediction, especially for human-centric instances.",
       links: [
+        { label: "Paper", url: "https://arxiv.org/abs/2605.28587" },
         { label: "Code", url: "https://github.com/vita-epfl/DeGO" }
       ]
     },
