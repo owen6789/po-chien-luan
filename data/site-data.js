@@ -46,8 +46,8 @@ window.siteData = {
     "Spatial Intelligence"
   ],
   news: [
-    { date: "2026", text: "Stable Video Infinity was accepted to ICLR 2026 as an oral presentation." },
     { date: "2026", text: "Social-Mamba was accepted to ECCV 2026." },
+    { date: "2026", text: "Stable Video Infinity was accepted to ICLR 2026 as an oral presentation." },
     { date: "2026", text: "Deformable Gaussian Occupancy: Decoupling Rigid and Nonrigid Motion with Factorized Distillation was accepted to CVPR 2026." },
     { date: "2025", text: "Unified Human Localization and Trajectory Prediction with Monocular Vision was accepted to ICRA 2025." },
     { date: "2025", text: "Sim-to-Real Causal Transfer was accepted to CVPR 2025." }
