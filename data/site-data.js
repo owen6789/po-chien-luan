@@ -47,6 +47,7 @@ window.siteData = {
   ],
   news: [
     { date: "2026", text: "Stable Video Infinity was accepted to ICLR 2026 as an oral presentation." },
+    { date: "2026", text: "Social-Mamba was accepted to ECCV 2026." },
     { date: "2026", text: "Deformable Gaussian Occupancy: Decoupling Rigid and Nonrigid Motion with Factorized Distillation was accepted to CVPR 2026." },
     { date: "2025", text: "Unified Human Localization and Trajectory Prediction with Monocular Vision was accepted to ICRA 2025." },
     { date: "2025", text: "Sim-to-Real Causal Transfer was accepted to CVPR 2025." }
@@ -79,7 +80,7 @@ window.siteData = {
       title: "Social-Mamba: Socially-Aware Trajectory Forecasting with State-Space Models",
       authors: "Po-Chien Luan, Wuyang Li†, Yang Gao, Alexandre Alahi",
       note: "† Corresponding author",
-      venue: "arXiv 2026",
+      venue: "ECCV 2026",
       category: "Human Motion",
       categories: ["Human Motion", "Computer Vision"],
       image: "assets/publications/social-mamba-framework.png",
