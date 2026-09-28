@@ -46,6 +46,8 @@ window.siteData = {
     "Spatial Intelligence"
   ],
   news: [
+    { date: "2026", text: "Drift-Resistant Navigation World Model with Anchored Epipolar Guidance was accepted to NeurIPS 2026." },
+    { date: "2026", text: "EverAnimate: Minute-Scale Human Animation via Latent Flow Restoration was accepted to NeurIPS 2026." },
     { date: "2026", text: "Social-Mamba was accepted to ECCV 2026." },
     { date: "2026", text: "Stable Video Infinity was accepted to ICLR 2026 as an oral presentation." },
     { date: "2026", text: "Deformable Gaussian Occupancy: Decoupling Rigid and Nonrigid Motion with Factorized Distillation was accepted to CVPR 2026." },
@@ -65,7 +67,7 @@ window.siteData = {
       title: "Drift-Resistant Navigation World Model with Anchored Epipolar Guidance",
       authors: "Po-Chien Luan, Zimin Xia†, Wuyang Li, Yang Gao, Alexandre Alahi",
       note: "† Corresponding author",
-      venue: "arXiv 2026",
+      venue: "NeurIPS 2026",
       category: "World Models",
       categories: ["World Models", "3D Computer Vision"],
       image: "assets/wm.gif",
@@ -164,7 +166,7 @@ window.siteData = {
     {
       title: "EverAnimate: Minute-Scale Human Animation via Latent Flow Restoration",
       authors: "Wuyang Li, Yang Gao, Mariam Hassan, Lan Feng, Wentao Pan, Po-Chien Luan, Alexandre Alahi",
-      venue: "arXiv 2026",
+      venue: "NeurIPS 2026",
       category: "Video Generation",
       categories: ["Video Generation", "Computer Vision"],
       video: "assets/EverAnimate.mp4",
