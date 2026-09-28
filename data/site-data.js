@@ -7,7 +7,7 @@ window.siteData = {
     location: "Lausanne, Switzerland",
     email: "po-chien.luan@epfl.ch",
     photo: "assets/profile.jpg",
-    cv: "assets/CV.pdf",
+    cv: "assets/CV.pdf?v=20260928",
     kicker: "Robotics and Computer Vision Researcher",
     headline: "Building world models and social-aware systems for robotics.",
     contactText: "I am open to research conversations and collaborations around world models, human motion, social navigation, and robotic perception.",
@@ -19,7 +19,7 @@ window.siteData = {
       { label: "Google Scholar", icon: "scholar", url: "https://scholar.google.com/citations?user=Y2Oth4MAAAAJ&hl=en" },
       { label: "LinkedIn", icon: "linkedin", url: "https://www.linkedin.com/in/po-chien-luan-9a8b7b217" },
       { label: "GitHub", icon: "github", url: "https://github.com/owen6789" },
-      { label: "CV", icon: "cv", url: "assets/CV.pdf" }
+      { label: "CV", icon: "cv", url: "assets/CV.pdf?v=20260928" }
     ]
   },
   bio: [
@@ -47,10 +47,10 @@ window.siteData = {
   ],
   news: [
     { date: "2026", text: "Drift-Resistant Navigation World Model with Anchored Epipolar Guidance was accepted to NeurIPS 2026." },
-    { date: "2026", text: "EverAnimate: Minute-Scale Human Animation via Latent Flow Restoration was accepted to NeurIPS 2026." },
+    { date: "2026", text: "EverAnimate: Minute-Scale Human Animation via Latent Flow Restoration was accepted to NeurIPS 2026. Congrats to Wuyang and Yang!" },
     { date: "2026", text: "Social-Mamba was accepted to ECCV 2026." },
-    { date: "2026", text: "Stable Video Infinity was accepted to ICLR 2026 as an oral presentation." },
-    { date: "2026", text: "Deformable Gaussian Occupancy: Decoupling Rigid and Nonrigid Motion with Factorized Distillation was accepted to CVPR 2026." },
+    { date: "2026", text: "Stable Video Infinity was accepted to ICLR 2026 as an oral presentation. Congrats to Wuyang!" },
+    { date: "2026", text: "Deformable Gaussian Occupancy: Decoupling Rigid and Nonrigid Motion with Factorized Distillation was accepted to CVPR 2026. Congrats to Yang!" },
     { date: "2025", text: "Unified Human Localization and Trajectory Prediction with Monocular Vision was accepted to ICRA 2025." },
     { date: "2025", text: "Sim-to-Real Causal Transfer was accepted to CVPR 2025." }
   ],
@@ -250,5 +250,5 @@ window.siteData = {
     "FIRA RoboWorld Cup HuroCup (Adult Robots All-Round): 1st Place, 2018",
     "KAIST AI World Cup (AI Soccer): 4th Place, 2018"
   ],
-  lastUpdated: "May 2026"
+  lastUpdated: "September 2026"
 };

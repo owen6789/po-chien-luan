@@ -576,6 +576,10 @@ video {
   background: var(--panel-soft);
 }
 
+.publication-card[hidden] {
+  display: none;
+}
+
 .publication-card-wide {
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   align-items: stretch;

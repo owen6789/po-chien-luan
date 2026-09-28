@@ -254,9 +254,14 @@ const renderPublications = () => {
     button.type = "button";
     button.textContent = filter;
     button.className = index === 0 ? "is-selected" : "";
-      button.addEventListener("click", () => {
-      filterRow.querySelectorAll("button").forEach((node) => node.classList.remove("is-selected"));
+    button.setAttribute("aria-pressed", index === 0 ? "true" : "false");
+    button.addEventListener("click", () => {
+      filterRow.querySelectorAll("button").forEach((node) => {
+        node.classList.remove("is-selected");
+        node.setAttribute("aria-pressed", "false");
+      });
       button.classList.add("is-selected");
+      button.setAttribute("aria-pressed", "true");
       list.querySelectorAll(".publication-card").forEach((card) => {
         const categories = card.dataset.categories.split("|");
         const visible = filter === "All" || categories.includes(filter);
